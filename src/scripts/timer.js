@@ -9,7 +9,7 @@ let sec = document.querySelector('#sec');
 // функция получения чисел
 function newYearTimer() {
     let currentDate = new Date();
-    let newYear = Date.UTC(2025, 0, 1);
+    let newYear = Date.UTC(2026, 0, 1);
     let difference = newYear - currentDate;
 
     getDays = Math.floor(difference / (1000*60*60*24));
